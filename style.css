@@ -1,0 +1,72 @@
+p, a {
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
+  	text-decoration: none;
+  	color: white;
+}
+
+ul {
+  	list-style-type: none;
+  	display: flex;
+  	gap: 24px;
+}
+
+img {
+	max-width: 500px;
+}
+
+button {
+	font-family: Roboto, sans-serif;
+	border: none;
+	border-radius: 8px;
+	background: #3882F6;
+	padding: 12px 24px;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+}
+
+.main-text, .logo {
+	font-family: Roboto, sans-serif;
+	color: white;
+}
+
+div .main-text {
+	font-weight: 900;
+	font-size: 48px;
+}
+
+div .logo {
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.page-one {
+	background-color: #1F2937;
+	display: flex;
+	flex-direction: column;
+	gap: 48px;
+	padding-bottom: 72px;
+}
+
+.header {
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	margin: 0 120px;
+	align-items: center;
+}
+
+.content-one {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 120px;
+	align-items: center;
+	gap: 72px;
+}
+
+.introduction {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
