@@ -1,8 +1,10 @@
 body {
 	margin: 0;
+	display: flex;
+	flex-direction: column;
 }
 
-p, a {
+.reserve-description, p, a {
 	font-family: Roboto, sans-serif;
 	font-size: 18px;
   	text-decoration: none;
@@ -17,16 +19,26 @@ ul {
 
 button {
 	font-family: Roboto, sans-serif;
-	border: none;
 	border-radius: 8px;
-	background: #3882F6;
-	padding: 12px 24px;
 	font-size: 18px;
 	font-weight: bold;
 	color: white;
 }
 
-.main-text, .logo {
+.button-intro {
+	background: #3882F6;
+	border: none;
+	padding: 12px 24px;
+}
+
+.button-reserve {
+	background: none;
+	border: 2px solid white;
+	height: 48px;
+	padding: 0 24px;
+}
+
+.reserve-header, .reserve-description, .main-text, .logo {
 	font-family: Roboto, sans-serif;
 	color: white;
 }
@@ -53,20 +65,19 @@ div .logo {
 	display: flex;
 	flex: 1;
 	justify-content: space-between;
-	margin: 0 160px;
+	margin: 0 150px;
 	align-items: center;
 }
 
 .content-one {
 	display: flex;
-	justify-content: space-between;
-	margin: 0 160px;
-	align-items: center;
 	gap: 72px;
+	justify-content: center;
 }
 
 .introduction {
 	display: flex;
+	max-width: 500px;
 	flex-direction: column;
 	gap: 8px;
 }
@@ -92,7 +103,8 @@ div .logo {
 
 .menu {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
+	gap: 48px;
 	margin: 0 160px;
 }
 
@@ -109,4 +121,68 @@ div .logo {
 	color: #1F2937;
 	text-align: center;
 	max-width: 200px;
+}
+
+.page-three {
+	background-color: #E5E7EB;
+	display: flex;
+	flex-direction: column;
+	padding: 100px 220px;
+}
+
+.quote-container {
+	display: flex;
+	flex-direction: column;
+	width: 950px;
+	margin: auto;
+}
+
+.quote {
+	color: #1F2937;
+	font-size: 36px;
+	font-weight: 300;
+	font-style: italic;
+	font-family: Roboto, sans-serif;
+}
+
+.name {
+	color: #1F2937;
+	font-size: 24px;
+	font-weight: 700;
+	text-align: right;
+	padding-right: 48px;
+	font-family: Roboto, sans-serif;
+}
+
+.page-four {
+	display: flex;
+	margin: 96px auto;
+	background-color: #3882F6;
+	padding: 48px 128px;
+	border-radius: 12px;
+	gap: 96px;
+	align-items: center;
+}
+
+.reserve-container {
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+}	
+	
+
+.reserve-header {
+	font-weight: 900;
+	font-size: 24px;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 48px;
+	background-color: #1F2937;
+	font-family: Roboto, sans-serif;
+	font-size: 18px;
+	color: #E5E7EB;
 }
